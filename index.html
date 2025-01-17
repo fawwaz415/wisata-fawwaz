@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="id" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Muhammad nur fawwaz adalah pembuat website ini."
+    />
+    <meta
+      name="keywords"
+      content="wonderful pandeglang website referensi wisata di pandeglang"
+    />
+    <link
+      rel="shortcut icon"
+      href="app/assets/img/logo.png"
+      type="image/x-icon"
+    />
+    <title>wonderful pandeglang</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link href="app/assets/css/theme.css" rel="stylesheet" />
+    <link href="app/assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css"
+    />
+  </head>
+
+  <body>
+    <main class="main" id="top">
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block"
+        data-navbar-on-scroll="data-navbar-on-scroll"
+      >
+        <div class="container">
+          <a class="navbar-brand mt-2" href="index.html"
+            ><img src="app/assets/img/logo.png" height="90" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <div
+            class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0"
+            id="navbarSupportedContent"
+          >
+            <ul
+              class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start"
+            >
+              <li class="nav-item px-3 px-xl-4">
+                <a
+                  class="nav-link fw-medium"
+                  aria-current="page"
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Halaman beranda"
+                  ><i class="fa-solid fa-house-chimney"></i> Home</a
+                >
+              </li>
+              <li class="nav-item px-3 px-xl-4">
+                <a
+                  class="nav-link fw-medium"
+                  aria-current="page"
+                  href="#service"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Daftarkan tempat wisata disekitarmu."
+                  ><i class="fa-solid fa-wrench"></i> Service</a
+                >
+              </li>
+              <li class="nav-item px-3 px-xl-4">
+                <a
+                  class="nav-link fw-medium"
+                  aria-current="page"
+                  href="#wisataPopuler"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Cek tempat wisata"
+                  ><i class="fa-solid fa-map-location-dot"></i> Destinasi</a
+                >
+              </li>
+              <li class="nav-item px-3 px-xl-4">
+                <a
+                  class="nav-link fw-medium"
+                  aria-current="page"
+                  href="#kontak"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Kontak kami"
+                  ><i class="fa-solid fa-phone"></i> Pembuat</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section style="padding-top: 7rem">
+        <div
+          class="bg-holder"
+          style="background-image: url(app/assets/img/hero/hero-bg.svg)"
+        ></div>
+        <div class="container">
+          <div class="row align-items-top">
+            <div class="col-md-5 col-lg-6 order-0 order-md-1 text-end">
+              <img
+                class="img-mobile pt-7 pt-md-0 hero-img"
+                src="app/assets/img/hero/Hero2.png"
+                alt="hero-header"
+              />
+              <img
+                class="img-desktop pt-7 pt-md-0 hero-img"
+                src="app/assets/img/hero/Hero2.png"
+                alt="hero-header"
+              />
+            </div>
+            <div
+              class="col-md-7 col-lg-6 text-md-start text-center py-6 mt-lg-5"
+            >
+              <h1 class="hero-title mb-3">
+                Ingin pergi ke pandeglang bagian mana hari ini?
+              </h1>
+              <p class="mb-4 fw-medium text-danger">
+                Yuk, kunjungi tempat wisata terbaik di pandeglang.
+              </p>
+              <div class="text-center text-md-start">
+                <a
+                  class="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Cek tempat wisata."
+                  href="#wisataPopuler"
+                  role="button"
+                  >Lihat Sekarang</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pt-5 pt-md-9" id="service">
+        <div class="container">
+          <div class="position-absolute z-index--1 end-0 d-none d-lg-block">
+            <img
+              src="app/assets/img/category/shape.svg"
+              style="max-width: 200px"
+              alt="service"
+            />
+          </div>
+          <div class="mb-7 text-center">
+            <h5 class="text-secondary">Service</h5>
+            <h3
+              class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize"
+            >
+              website referensi Tempat Wisata di pandeglang
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-6">
+              <div class="card rounded-3 text-center align-items-center">
+                <div class="card-body p-xxl-5 p-4">
+                  <img
+                    src="app/assets/img/category/taman.png"
+                    width="75"
+                    alt="Service"
+                  />
+                  <h4 class="mb-3">taman</h4>
+                  <p class="mb-0 fw-medium">
+                    keindahan taman bunga dan taman nasional.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-6">
+              <div class="card rounded-3 text-center align-items-center">
+                <div class="card-body p-xxl-5 p-4">
+                  <img
+                    src="app/assets/img/category/gunung.png"
+                    width="75"
+                    alt="Service"
+                  />
+                  <h4 class="mb-3">gunung</h4>
+                  <p class="mb-0 fw-medium">
+                    Petualangan menanti di tempat pegunungan bertemu langit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-6">
+              <div class="card rounded-3 text-center align-items-center">
+                <div class="card-body p-xxl-5 p-4">
+                  <img
+                    src="app/assets/img/category/pantai.png"
+                    width="75"
+                    alt="Service"
+                  />
+                  <h4 class="mb-3">pantai</h4>
+                  <p class="mb-0 fw-medium">
+                    pasir yang putih dan juga angin yang segar di sertai deburan ombak
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-6">
+              <div class="card rounded-3 text-center align-items-center">
+                <div class="card-body p-xxl-5 p-4">
+                  <img
+                    src="app/assets/img/category/pulau.png"
+                    width="75"
+                    alt="Service"
+                  />
+                  <h4 class="mb-3">pulau</h4>
+                  <p class="mb-0 fw-medium">
+                    pulau yang eksotik dan lautan yang biru
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pt-4" id="wisataPopuler">
+        <div class="container">
+          <div
+            class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4"
+          >
+            <img src="app/assets/img/dest/shape.svg" alt="destination" />
+          </div>
+          <div class="mb-7 text-center">
+            <h5 class="text-secondary">Tempat Wisata</h5>
+            <h3
+              class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize"
+            >
+              Paling sering di kunjungi
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow zoom">
+                <img
+                  class="card-img-top"
+                  src="app/assets/img/dest/bugel.jpg"
+                  alt="Pura Agung Besakih"
+                />
+                <div class="card-body py-4 px-3">
+                  <div
+                    class="d-flex flex-column flex-lg-row justify-content-between mb-3"
+                  >
+                    <h4 class="text-secondary fw-medium">Pantai Bugl Mega Camara</h4>
+                    <span style="z-index: 99; cursor: pointer"
+                      ><a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal1"
+                        style="text-decoration: none"
+                        >Lihat Detail</a
+                      ></span
+                    >
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium"
+                      ><i class="fa-solid fa-location-dot"></i> pandeglang, Kp.
+                      Banyuasih</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow zoom">
+                <img
+                  class="card-img-top"
+                  src="app/assets/img/dest/kampung.jpg"
+                  alt="Pantai Kartini"
+                />
+                <div class="card-body py-4 px-3">
+                  <div
+                    class="d-flex flex-column flex-lg-row justify-content-between mb-3"
+                  >
+                    <h4 class="text-secondary fw-medium">kampung domba</h4>
+                    <span style="z-index: 99; cursor: pointer"
+                      ><a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal2"
+                        style="text-decoration: none"
+                        >Lihat Detail</a
+                      ></span
+                    >
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium"
+                      ><i class="fa-solid fa-location-dot"></i> pandeglang, Kp.
+                      juhut</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow zoom">
+                <img
+                  class="card-img-top"
+                  src="app/assets/img/dest/citaman.jpg"
+                  alt="Candi Prambanan"
+                />
+                <div class="card-body py-4 px-3">
+                  <div
+                    class="d-flex flex-column flex-lg-row justify-content-between mb-3"
+                  >
+                    <h4 class="text-secondary fw-medium">pemandian citaman</h4>
+                    <span style="z-index: 99; cursor: pointer"
+                      ><a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal3"
+                        style="text-decoration: none"
+                        >Lihat Detail</a
+                      ></span
+                    >
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium"
+                      ><i class="fa-solid fa-location-dot"></i> pandeglang, Kp.
+                      jiput</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pt-4" id="wisataTerbaru">
+        <div class="container">
+          <div
+            class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4"
+          >
+            <img src="app/assets/img/dest/shape.svg" alt="destination" />
+          </div>
+          <div class="mb-7 text-center">
+            <h5 class="text-secondary">Tempat Wisata</h5>
+            <h3
+              class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize"
+            >
+              Terpopuler
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow zoom">
+                <img
+                  class="card-img-top"
+                  src="app/assets/img/dest/gunung.jpg"
+                  alt="Gunung Rinjani"
+                />
+                <div class="card-body py-4 px-3">
+                  <div
+                    class="d-flex flex-column flex-lg-row justify-content-between mb-3"
+                  >
+                    <h4 class="text-secondary fw-medium">Gunung pulosari</h4>
+                    <span style="z-index: 99; cursor: pointer"
+                      ><a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal4"
+                        style="text-decoration: none"
+                        >Lihat Detail</a
+                      ></span
+                    >
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium"
+                      ><i class="fa-solid fa-location-dot"></i> pandeglang,
+                      Kp. pasirpeurih</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow zoom">
+                <img
+                  class="card-img-top"
+                  src="app/assets/img/dest/taman.jpg"
+                  alt="Kepulauan Derawan"
+                />
+                <div class="card-body py-4 px-3">
+                  <div
+                    class="d-flex flex-column flex-lg-row justify-content-between mb-3"
+                  >
+                    <h4 class="text-secondary fw-medium">taman bunga</h4>
+                    <span style="z-index: 99; cursor: pointer"
+                      ><a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal5"
+                        style="text-decoration: none"
+                        >Lihat Detail</a
+                      ></span
+                    >
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium"
+                      ><i class="fa-solid fa-location-dot"></i>pandeglang,
+                      Kp. jambu</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow zoom">
+                <img
+                  class="card-img-top"
+                  src="app/assets/img/dest/peucang.jpg"
+                  alt="Pantai Parai Tenggiri"
+                />
+                <div class="card-body py-4 px-3">
+                  <div
+                    class="d-flex flex-column flex-lg-row justify-content-between mb-3"
+                  >
+                    <h4 class="text-secondary fw-medium">
+                      pulau peucang
+                    </h4>
+                    <span style="z-index: 99; cursor: pointer"
+                      ><a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal6"
+                        style="text-decoration: none"
+                        >Lihat Detail</a
+                      ></span
+                    >
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium"
+                      ><i class="fa-solid fa-location-dot"></i> pandeglang,
+                      Kec.sumur</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-lg-2">
+            <div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow zoom">
+                <img
+                  class="card-img-top"
+                  src="app/assets/img/dest/lesung.jpg"
+                  alt="Karimun Jawa"
+                />
+                <div class="card-body py-4 px-3">
+                  <div
+                    class="d-flex flex-column flex-lg-row justify-content-between mb-3"
+                  >
+                    <h4 class="text-secondary fw-medium">pantai tanjung lesung</h4>
+                    <span style="z-index: 99; cursor: pointer"
+                      ><a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal7"
+                        style="text-decoration: none"
+                        >Lihat Detail</a
+                      ></span
+                    >
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium"
+                      ><i class="fa-solid fa-location-dot"></i> pandeglang, Kp.
+                      Tanjung jaya</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow zoom">
+                <img
+                  class="card-img-top"
+                  src="app/assets/img/dest/taman-kulon.jpg"
+                  alt="Kota Lama"
+                />
+                <div class="card-body py-4 px-3">
+                  <div
+                    class="d-flex flex-column flex-lg-row justify-content-between mb-3"
+                  >
+                    <h4 class="text-secondary fw-medium">taman ujung kulaon</h4>
+                    <span style="z-index: 99; cursor: pointer"
+                      ><a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal8"
+                        style="text-decoration: none"
+                        >Lihat Detail</a
+                      ></span
+                    >
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium"
+                      ><i class="fa-solid fa-location-dot"></i> pandeglang, ujung
+                      Kulon.</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow zoom">
+                <img
+                  class="card-img-top"
+                  src="app/assets/img/dest/curug.jpg"
+                  alt="Lawang Sewu"
+                />
+                <div class="card-body py-4 px-3">
+                  <div
+                    class="d-flex flex-column flex-lg-row justify-content-between mb-3"
+                  >
+                    <h4 class="text-secondary fw-medium">curug putri</h4>
+                    <span style="z-index: 99; cursor: pointer"
+                      ><a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal9"
+                        style="text-decoration: none"
+                        >Lihat Detail</a
+                      ></span
+                    >
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium"
+                      ><i class="fa-solid fa-location-dot"></i> pandeglang, Kp.
+                      sukarame</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Untuk Detail -->
+
+      <!-- Detail 1 -->
+      <div
+        class="modal fade"
+        id="modal1"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+        style="background-color: rgba(0, 0, 0, 0.7)"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content rounded">
+            <div class="modal-header border-0">
+              <h1 class="modal-title fs-4" id="exampleModalLabel">
+                pantai bugel Mega cemara
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body border-bottom" style="margin-top: -15px">
+              Pantai Bugel Banten, juga dikenal sebagai Bugel Beach Mega Camara, menawarkan garis pantai yang indah dengan pasir putih yang berpadu dengan karang. Pantai ini memiliki lokasi yang unik karena letaknya yang tersembunyi. Kamu akan melewati hutan dan tanah sebelum akhirnya menemukan pantai yang indah ini.<br /><br />
+              Untuk mencapai Pantai Bugel Banten, kamu akan membutuhkan waktu sekitar 2 jam dari Pandeglang melewati Tanjung Lesung dan Pantai Batu Hideung. Kondisi jalan menuju lokasi masih cukup bagus dan tanpa kendala. Setelah sampai di gerbang pintu masuk, kamu hanya perlu waktu sekitar 5-10 menit untuk mencapai bibir pantai.<br /><br />
+              Harga tiket masuk untuk pengunjung pantai ini mulai dari Rp 10.000,00. Pantai ini buka selama 24 jam, jadi kamu bisa menikmati keindahan pantai ini kapan saja.
+            </div>
+            <div class="row modal-footer border-0">
+              <div class="col">
+                <a
+                  href="https://maps.app.goo.gl/z5WpiftN9jMUUrEk8"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buka Google Maps Pura Agung Besakih."
+                  ><i class="fs-7 fa-solid fa-map-location-dot"></i
+                ></a>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn btn-warning"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail 2 -->
+      <div
+        class="modal fade"
+        id="modal2"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+        style="background-color: rgba(0, 0, 0, 0.7)"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content rounded">
+            <div class="modal-header border-0">
+              <h1 class="modal-title fs-4" id="exampleModalLabel">
+                kampung domba
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body border-bottom" style="margin-top: -15px">
+              Wisata ini menyuguhkan pemandangan alam dengan suasana yang sejuk dan asri karena berada di kaki Gunung Karang yang berjarak sekitar lima kilometer atau sekira lima belas menit dari pusat kota.
+Memiliki luas sekira 7.000 meter Kampung domba ini tidak hanya menyuguhkan keindahan alamnya, namun juga terdapat beberapa kambing ternak yang berada di sekitar lokasi wisata.
+Seorang pengujung Siska Rahmawati di Kampung Domba, Pandeglang, Banten, Sabtu, mengatakan, sengaja datang ke Kampung Domba untuk menghilangkan rasa penat akibat rutinitas dan pekerjaan sehari-hari.<br /><br />
+             "Dari beberapa tempat wisata di Kabupaten Pandeglang, Kampung Domba ini lebih cocok untuk mengisi akhir pekan, soalnya bisa menikmati pemandangan alam, udaranya juga sejuk, nyaman,"<br /><br />"Wisata disini selain pemandangannya yang indah, harganya juga terjangkau bayar masuknya cuman Rp3.000 per orang,".
+            </div>
+            <div class="row modal-footer border-0">
+              <div class="col">
+                <a
+                  href=https://maps.app.goo.gl/geEkSjWu5VJwQJfH7
+                  target="_blank"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buka Google Maps Pantai Kartini."
+                  ><i class="fs-7 fa-solid fa-map-location-dot"></i
+                ></a>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn btn-warning"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail 3 -->
+      <div
+        class="modal fade"
+        id="modal3"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+        style="background-color: rgba(0, 0, 0, 0.7)"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content rounded">
+            <div class="modal-header border-0">
+              <h1 class="modal-title fs-4" id="exampleModalLabel">
+                pemandian citaman
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body border-bottom" style="margin-top: -15px">
+              Wisata di Yogyakarta yang juga dikenal dengan nama Candi Roro
+              Jonggrang ini merupakan candi Hindu terbesar di Indonesia dan juga
+              termasuk dalam Situs Warisan Dunia UNESCO. Terletak di perbatasan
+              Yogyakarta dan Jawa Tengah, tidak terlalu jauh dari Candi
+              Borobudur, Candi Prambanan didedikasikan untuk para Dewa Hindu;
+              Siwa, Wisnu, dan Brahma.<br /><br />Jika ditilik dari sejarah,
+              Candi Prambanan dibangun sekitar tahun 850 masehi. Wisata Jogja
+              ini memiliki candi utama, yaitu Candi Siwa, dengan tinggi mencapai
+              47 meter yang terletek di tengah kompleks candi-candi yang lebih
+              kecil. Terdapat total 240 candi besar dan kecil di kompleks Candi
+              Prambanan, tetapi kini hanya tersisa 18 candi.
+            </div>
+            <div class="row modal-footer border-0">
+              <div class="col">
+                <a
+                  href="https://maps.app.goo.gl/jxJhRDd5Qnkx8k8cA"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buka Google Maps Candi Prambanan."
+                  ><i class="fs-7 fa-solid fa-map-location-dot"></i
+                ></a>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn btn-warning"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail 4 -->
+      <div
+        class="modal fade"
+        id="modal4"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+        style="background-color: rgba(0, 0, 0, 0.7)"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content rounded">
+            <div class="modal-header border-0">
+              <h1 class="modal-title fs-4" id="exampleModalLabel">
+                Gunung pulosari
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body border-bottom" style="margin-top: -15px">
+              Gunung Pulosari yang berada di Kabupaten Pandeglang. Sekilas jika dilihat dari bawah gunung ini tampak biasa saja. Ketinggiannya yang hanya 1.346 Mdpl membuat banyak yang mengira bahwa gunung ini mudah didaki. Faktanya jalur pendakiannya cukup menantang, selain itu waktu tempuh menuju puncaknya pun terbilang panjang.<br /><br />Gunung yang
+              Untuk mencapai puncak Gunung Pulosari membutuhkan perjalanan sekitar 5-6 jam. Treknya tidak mudah karena masih berupa hutan lebat yang alami dan lebih banyak menanjak. Namun pesona yang ditawarkan di puncaknya sangat memukau.
+
+Kubah kawah besar yang mengeluarkan asap menjadi sajian utama dari gunung ini. Selain itu ada juga Curug (air terjun) yang berada di tengah jalur pendakian. Dengan kondisinya yang masih alami gunung ini sangat cocok bagi pecinta wisata pendakian dengan jalur yang penuh tantangan.
+            </div>
+            <div class="row modal-footer border-0">
+              <div class="col">
+                <a
+                  href="https://maps.app.goo.gl/5GLA1tgT3T85uomYA"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buka Google Maps Gunung Rinjani."
+                  ><i class="fs-7 fa-solid fa-map-location-dot"></i
+                ></a>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn btn-warning"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail 5 -->
+      <div
+        class="modal fade"
+        id="modal5"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+        style="background-color: rgba(0, 0, 0, 0.7)"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content rounded">
+            <div class="modal-header border-0">
+              <h1 class="modal-title fs-4" id="exampleModalLabel">
+                taman bunga
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body border-bottom" style="margin-top: -15px">
+              Taman Bunga Kampung Jambu adalah salah satu destinasi wisata alam yang cukup populer di Kabupaten Pandeglang, Banten. Terletak di desa Sukasari, Kecamatan Kaduhejo, taman ini menawarkan keindahan alam yang memukau dengan beragam jenis bunga berwarna-warni seperti, celosia, zinnia, dan bunga matahari.<br /><br />
+              Bagi pecinta fotografi, Taman Bunga Kampung Jambu menyediakan beberapa tempat dan spot sempurna untuk mengambil foto yang indah. Dengan pemandangan bunga-bunga yang mekar dan suasana alam yang tenang dan hijau​, kamu bisa berfoto ria sambil bersantai merelaksasi pikiran.<br /><br />Secara geografis,
+              Taman Bunga Kampung Jambu dibuka setiap hari mulai pukul 08.00 hingga 17.00 WIB. Tiket masuknya sangat terjangkau, yaitu Rp7.000 per orang. Harga tersebut sudah termasuk minuman atau permen gratis​​. Pengunjung bisa membeli benih bunga dan sayur dengan harga Rp15.000 dan Rp20.000 untuk benih bunga siap tanam.
+            </div>
+            <div class="row modal-footer border-0">
+              <div class="col">
+                <a
+                  href="https://maps.app.goo.gl/UeUNrAeCbx5rqX778"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buka Google Maps Kepulauan Derawan."
+                  ><i class="fs-7 fa-solid fa-map-location-dot"></i
+                ></a>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn btn-warning"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail 6 -->
+      <div
+        class="modal fade"
+        id="modal6"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+        style="background-color: rgba(0, 0, 0, 0.7)"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content rounded">
+            <div class="modal-header border-0">
+              <h1 class="modal-title fs-4" id="exampleModalLabel">
+                pulau peucang
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body border-bottom" style="margin-top: -15px">
+              PULAU PEUCANG
+Merupakan pulau yang terdapat di selat Panaitan Kabupaten Pandeglang Banten atau sebelah barat Taman Nasional Ujung Kulon. Pulau Peucang juga diterima sebagai Situs Warisan Dunia UNESCO, bersama dengan Pulau  Panaitan dan Pulau Handeuleum.s<br /><br />Pantai Parai Tenggiri memiliki
+              antai di Pulau Peucang memiliki karakteristik yang khas pasir  putih dan hamparan yang luas. Obyek Wisata Alam yang dinikmati di pulau ini antara tracking ke karang copong, berenang, snorkeling, dan menyelam. WildlifeViewing dapat dinikmati dengan menyebrang  ke Padang Pengembalan Cidaon yang memakan watu ± 15 menit dengan menggunakan boat kecil yang berkapasitas 6 (enam) orang. Di Cidaon kita dapat mengamati atraksi satwa seperti banteng,  merak, rusa, dan babi hutan. Selain itu juga dapat melihat situs sejarah peninggalan kolonial belanda berupa menara mercusuar dan bekas pembangunan dermaga di tanjung layar dan Cibom.
+            </div>
+            <div class="row modal-footer border-0">
+              <div class="col">
+                <a
+                  href="https://maps.app.goo.gl/ZtPyRBdvnArzLVUB8"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buka Google Maps Pantai Parai Tenggiri."
+                  ><i class="fs-7 fa-solid fa-map-location-dot"></i
+                ></a>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn btn-warning"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail 7 -->
+      <div
+        class="modal fade"
+        id="modal7"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+        style="background-color: rgba(0, 0, 0, 0.7)"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content rounded">
+            <div class="modal-header border-0">
+              <h1 class="modal-title fs-4" id="exampleModalLabel">
+                pantai tanjung lesung
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body border-bottom" style="margin-top: -15px">
+              Tanjung Lesung terletak sekitar 170 km barat daya Jakarta, di Provinsi Banten dan meliputi 1.500 hektar semenanjung yang belum tersentuh yang menghadap ke Samudra Hindia. Obyek ini dapat diakses dengan jalan tol dari Jakarta dalam sekitar 3,5 jam.<br /><br />Tidak hanya alam
+              Tanjung Lesung direncanakan menjadi resort internasional kelas satu yang menggabungkan nuansa Bali dengan Venesia. Perairan dan kanal yang menghubungkan hotel, kondominium dan apartemen, dengan pantai berpasir putih, berlayar, menyelam & pantai klub, serta pusat kota bergaya Venesia. Perkembangan lebih lanjut akan mencakup 1000 + perumahan di tepi laut dan lapangan golf kejuaraan yang dikelilingi oleh tempat tinggal dengan pemandangan golf.
+            </div>
+            <div class="row modal-footer border-0">
+              <div class="col">
+                <a
+                  href="https://maps.app.goo.gl/7Rv7i9hP3yArMcZM8"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buka Google Maps Karimunjawa."
+                  ><i class="fs-7 fa-solid fa-map-location-dot"></i
+                ></a>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn btn-warning"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail 8 -->
+      <div
+        class="modal fade"
+        id="modal8"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+        style="background-color: rgba(0, 0, 0, 0.7)"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content rounded">
+            <div class="modal-header border-0">
+              <h1 class="modal-title fs-4" id="exampleModalLabel">Taman ujung kulon</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body border-bottom" style="margin-top: -15px">
+              Selain pesona lanskap alam yang memukau mata, Sobat Pesona juga bakal dimanjakan pesisir pantai dan suasana sejuknya bukit hijau di sekitar Taman Nasional Ujung Kulon. Beberapa destinasi unggulan di Taman Nasional ini antara lain, Pulau Peucang, sebuah pulau dengan pantai jernih berpasir putih, yang biasa dijadikan lokasi ideal untuk snorkeling, diving, serta berjelajah menyaksikan kehidupan satwa liar seperti rusa, banteng, dan monyet ekor panjang. 
+            </div>
+            <div class="row modal-footer border-0">
+              <div class="col">
+                <a
+                  href="https://maps.app.goo.gl/qkGdB3UKTWEDq2u79"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buka Google Maps Kota Lama."
+                  ><i class="fs-7 fa-solid fa-map-location-dot"></i
+                ></a>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn btn-warning"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail 9 -->
+      <div
+        class="modal fade"
+        id="modal9"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+        style="background-color: rgba(0, 0, 0, 0.7)"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content rounded">
+            <div class="modal-header border-0">
+              <h1 class="modal-title fs-4" id="exampleModalLabel">
+                curug putri
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body border-bottom" style="margin-top: -15px">
+              Curug ini memiliki aliran air yang menjadi sungai dan juga air terjun. Tidak hanya itu, Curug Putri Carita memiliki keunikan lain yaitu alirannya yang diapit dua tebing batu tinggi indah. Makin dekat ke arah air terjun, tebing batu ini akan semakin menyempit. Curug ini pun mendapat julukan The Little Green Canyon. Dengan berbagai keindahannya, Curug Putri Carita tentu bisa jadi ide wisata yang tepat untuk Anda dan keluarga. Bagi yang tidak mahir berenang akan ada petugas untuk memandu menyusuri aliran sungai.
+            </div>
+            <div class="row modal-footer border-0">
+              <div class="col">
+                <a
+                  href="https://maps.app.goo.gl/YoUENtS86Bt6qFSR7"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buka Google Maps Lawang Sewu."
+                  ><i class="fs-7 fa-solid fa-map-location-dot"></i
+                ></a>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn btn-warning"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="pt-4" id="kontak">
+        <div class="container">
+          <div
+            class="py-8 px-5 position-relative text-center"
+            style="
+              background-color: rgba(223, 215, 249, 0.199);
+              border-radius: 129px 20px 20px 20px;
+            "
+          >
+            <div
+              class="position-absolute start-100 top-0 translate-middle ms-md-n3 ms-n4 mt-3"
+            >
+              <img
+                src="app/assets/img/cta/send.png"
+                style="max-width: 70px"
+                alt="send icon"
+              />
+            </div>
+            <div class="position-absolute end-0 top-0 z-index--1">
+              <img
+                src="app/assets/img/cta/shape-bg2.png"
+                width="264"
+                alt="cta shape"
+              />
+            </div>
+            <div
+              class="position-absolute start-0 bottom-0 ms-3 z-index--1 d-none d-sm-block"
+            >
+              <img
+                src="app/assets/img/cta/shape-bg1.png"
+                style="max-width: 340px"
+                alt="cta shape"
+              />
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-8 col-md-10">
+                <h2 class="text-secondary lh-1-7 mb-3">Pembuat website</h2>
+                <form
+                  onsubmit="kirimpesan()"
+                  class="row g-3 align-items-center w-lg-75 mx-auto"
+                  method="post"
+                >
+                <div class="swiper-container review-slider">
+
+                  <div class="swiper-wrapper">
+              
+                    <div class="swiper-slide">
+                      <div class="box">
+                        <img src="" alt="">
+                        <h3>MUHAMMAD NUR FAWWAZ</h3>
+                        <p>Npm (1201221013)
+                          Sistem Informasi</p>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pb-0 pb-lg-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-7 col-12 mb-4 mb-md-6 mb-lg-0 order-0">
+              <img
+                class="mb-2"
+                src="app/assets/img/logo.png"
+                width="150"
+                alt="jadoo"
+              />
+              <p class="fs-1 text-secondary mb-0 fw-medium">
+                Platform online yang menyajikan informasi tempat wisata terbaik
+                di pandeglang.
+              </p>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-1 order-md-2">
+              <h4
+                class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4"
+              >
+                Links
+              </h4>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a class="link-900 fw-medium text-decoration-none" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    class="link-900 fw-medium text-decoration-none"
+                    href="#service"
+                    >Service</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    class="link-900 fw-medium text-decoration-none"
+                    href="#kontak"
+                    >Kontak</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-2 order-md-3">
+              <h4
+                class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4"
+              >
+                Support
+              </h4>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a class="link-900 fw-medium text-decoration-none" href="#"
+                    >Help/FAQ</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a class="link-900 fw-medium text-decoration-none" href="#!"
+                    >Informasi Wisata</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-3 order-md-4">
+              <h4
+                class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4"
+              >
+                Lainnya
+              </h4>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a
+                    class="link-900 fw-medium text-decoration-none"
+                    href="#wisataPopuler"
+                    >Wisata Populer</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    class="link-900 fw-medium text-decoration-none"
+                    href="#wisataTerbaru"
+                    >Wisata Terbaru</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-lg-3 col-md-5 col-12 mb-4 mb-md-6 mb-lg-0 order-lg-4 order-md-1"
+            >
+              <div class="icon-group mb-4">
+                <a
+                  class="text-decoration-none icon-item shadow-social"
+                  id="facebook"
+                  href="#"
+                  ><i class="fab fa-facebook-f"> </i
+                ></a>
+                <a
+                  class="text-decoration-none icon-item shadow-social"
+                  id="instagram"
+                  href="#"
+                  ><i class="fab fa-instagram"> </i
+                ></a>
+                <a
+                  class="text-decoration-none icon-item shadow-social"
+                  id="twitter"
+                  href="#"
+                  ><i class="fab fa-twitter"> </i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="py-5 text-center">
+        <p class="mb-0 text-secondary fs--1 fw-medium">
+          &copy; 2025 Muhammad nur fawwaz
+        </p>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+    <script>
+      function kirimpesan() {
+        const nama = document.querySelector("#nama").value;
+        const subjek = document.querySelector("#subjek").value;
+        const pesan = document.querySelector("#pesan").value;
+        const link = window.location.replace(
+          "https://wa.me/628123456789?text=Halo *Admin*,%0A%0A*Nama:* " +
+            nama +
+            "%0A*Subjek:* " +
+            subjek +
+            "%0A*Pesan:* " +
+            pesan +
+            "%0A%0A_Template by_ *BubbleMaps*"
+        );
+        return alert("Wait...");
+      }
+    </script>
+    <script src="app/vendors/@popperjs/popper.min.js"></script>
+    <script src="app/vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="app/vendors/is/is.min.js"></script>
+    <script src="app/https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="app/vendors/fontawesome/all.min.js"></script>
+    <script src="app/assets/js/theme.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </body>
+</html>
